@@ -1,0 +1,49 @@
+Automation part
+
+Software helps to love problems.
+
+Our motto: Copy paste, make it work. Less effort - more money!
+
+Work smart , not hard!
+
+ How to Configure the Driver ?
+ Property for Chrome:
+ webdriver.chrome.driver
+ Property for Firefox
+ webdriver.gecko.driver
+ Property for IE
+ webdriver.ie.driver
+
+//System.setProperty("webdriver.chrome.driver", "/Users/cybertekstudio/Desktop/selenium dependecies/drivers/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://google.com");
+
+        get method will open some website
+
+        How to search in Intellij: double click on shift
+
+SELENIUM CODE
+
+package com.cybertek;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Task1 {
+    public static void main(String[] args) {
+//        Create a new class called Task1
+// Launch Chrome and navigate to : https://www.cybertekschool.com/
+// Launch Firefox and navigate to : http://www.practice.cybertekschoool.com/
+
+       // System.setProperty("webdriver.chrome.driver", "/Users/cybertekstudio/Desktop/selenium dependecies/drivers/chromedriver");
+       // System.setProperty("webdriver.gecko.driver", "/Users/cybertekstudio/Desktop/selenium dependecies/drivers/geckodriver");
+        //WebDriver driver = new ChromeDriver();
+        //driver.get("http://cybertekschool.com");
+
+       // driver = new FirefoxDriver();
+        //driver.get("http://practice.cybertekschool.com");
+
+
+    }
+}
